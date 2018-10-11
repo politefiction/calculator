@@ -1,3 +1,7 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 #container {
     display: inline-block;
     position: relative;
@@ -16,12 +20,20 @@ button {
     width: 35px;
     margin: 10px 5px;
 }
+#result {
+    height: 20px;
+    width: 150px;
+    margin-bottom: 5px;
+    float: right;
+    font-size: 0.7em;
+    text-align: right;
+}
 
 #zero {
     width: 85px;
 }
 
-#number_pad {
+#number-pad {
     display: inline-block;
     position: relative;
 }
