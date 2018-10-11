@@ -24,9 +24,8 @@ button {
     height: 20px;
     width: 150px;
     margin-bottom: 5px;
-    float: right;
     font-size: 0.7em;
-    text-align: right;
+    margin: 0 0 5px 5px;
 }
 
 #zero {
