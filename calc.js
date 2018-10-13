@@ -4,7 +4,7 @@ let primaryValue = 0;
 
 function operate(eq) {
     if (eq.includes("/0")) { return result.textContent = "Nah." }
-    primaryValue = eval(eq).toFixed(3);
+    primaryValue = Math.round(eval(eq)*1000)/1000;
     equation.value = primaryValue;
     result.textContent = `= ${primaryValue}`;
 }
